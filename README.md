@@ -5,9 +5,11 @@
 ## 下载
 
 - [Windows 正式版](https://github.com/luyouq7/huizhi-workflow/releases/latest)：Windows 10/11 x64，下载 `.exe` 安装程序。
-- [Mac 测试预览](https://github.com/luyouq7/huizhi-workflow/releases/tag/v2.12.0-mac-preview)：Intel 选 `x64`，Apple 芯片/M 系列选 `arm64`。打开 DMG 后将文枝拖入 Applications。
+- [Mac 测试预览](https://github.com/luyouq7/huizhi-workflow/releases/tag/v2.12.1-mac-preview)：Intel 选 `x64`，Apple 芯片/M 系列选 `arm64`。打开 DMG 后将文枝拖入 Applications。
 
-**Mac 预览尚未经过 Apple Developer ID 签名和公证，首次打开可能需要在“系统设置 → 隐私与安全性”中手动允许。它不是无提示安装的正式签名版，也不进入正式 Mac 自动更新通道。** 不要关闭整个系统的安全保护；正式版需补齐开发者证书后发布。
+**Mac 预览尚未经过 Apple Developer ID 签名和公证，首次打开可能需要在“系统设置 → 隐私与安全性”中手动允许。它不是无提示安装的正式签名版，也不进入正式 Mac 自动更新通道。** 不要关闭整个系统的安全保护；正式版需补齐开发者证书并完成签名公证后发布。Mac 预览用户以后需要手动安装一次正式签名版，之后才能应用内更新。
+
+当前 Windows 正式版与 Mac 手动安装预览均为 **2.12.1**。Windows 的新版检查、完整下载与 SHA512 校验已用真实更新组件验证；Mac 的两种架构均通过原生启动和包内 Hermes 测试。
 
 ## 包含什么
 
@@ -18,3 +20,4 @@
 每个版本附 SHA-256 校验清单与平台构建/启动报告。程序更新不应覆盖用户资料。旧版带更新能力的 Windows 用户可在设置中检查、下载更新；客户端不需要 GitHub Token。
 
 此仓库仅存放安装文件和公开下载信息；源码保持私有。保留原项目与第三方许可，不额外授予商业使用授权，详见发行包中的 LICENSE.txt。
+
